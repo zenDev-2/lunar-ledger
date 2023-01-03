@@ -1,7 +1,7 @@
 node_modules/
 .parcel-cache/
 dist/
-**/.DS_Store
+.DS_Store
 package-lock.json
 package.json
 live-site/
