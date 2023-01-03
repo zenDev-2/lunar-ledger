@@ -1,0 +1,24 @@
+@import "_partial";
+
+.bigWrap {
+  width: 100vw;
+  height: 100vh;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 2.3rem;
+  font-family: "Montserrat Alternates", sans-serif;
+  text-align: left;
+  padding: 20px;
+  color: #fff;
+  span {
+    font-size: 1.8rem;
+    i {
+      transform: rotate(-10deg);
+    }
+  }
+}
