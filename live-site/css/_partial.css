@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates&family=Open+Sans:wght@300&family=Schoolbell&display=swap");
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1vw;
+  background-image: linear-gradient(to bottom, #002c3f, #004570, #185ca3, #5d6fd2, #a77bf9);
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+/*# sourceMappingURL=_partial.css.map */
