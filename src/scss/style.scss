@@ -1,12 +1,7 @@
 /* Lunar Ledger */
 @import "_partial";
 
-// found in _partial.scss: body + html global style, font import.
-
-// TODO
-
-// experiment with adding circles or a simple shape to each end of the faint horizontal lines between the button columns
-// make these lines shrink in width proportionally until smaller than tablet viewport, then set display none and format responsive layout for mobile
+// found in _partial.scss: body + html global style, font import, transition animations.
 
 // container just inside body, centers main content
 .bigWrap {
@@ -19,14 +14,6 @@
 }
 
 // main content container
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
 
 .formContainer {
   width: 650px;

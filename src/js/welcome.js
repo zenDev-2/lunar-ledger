@@ -6,6 +6,7 @@ const userImg = document.getElementById("userImg");
 const selectUser = document.querySelector(".selectUser");
 const selectImg = document.querySelector(".selectImg");
 const submitUser = document.getElementById("ready");
+const formContainer = document.querySelector(".formContainer");
 
 // global variables
 let iconIndex = 0;
@@ -174,6 +175,14 @@ const saveUserWhenReady = () => {
   return user;
 };
 
+// transition animation when 'Ready' button is clicked
+const pageTransition = () => {
+  formContainer.style.cssText = "animation: fadeOut 0.5s forwards;";
+  setTimeout(() => {
+    window.location.href = "./app.html";
+  }, 500);
+};
+
 // Event Handlers
 selectUser.addEventListener("click", () => {
   userRefresh();
@@ -185,6 +194,7 @@ selectImg.addEventListener("click", () => {
 
 submitUser.addEventListener("click", () => {
   users.push(saveUserWhenReady());
+  pageTransition();
   console.log(users);
 });
 
