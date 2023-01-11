@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates&family=Open+Sans:wght@300&family=Schoolbell&display=swap");
 
+:root {
+  font-size: 17px;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 1vw;
@@ -17,6 +21,12 @@ body,
 html {
   margin: 0;
   padding: 0;
+}
+
+h2,
+h3,
+h4 {
+  font-weight: lighter;
 }
 
 @keyframes fadeIn {

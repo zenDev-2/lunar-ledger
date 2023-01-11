@@ -1,3 +1,13 @@
+<!-- TODO 
+Make the items in 'At a Glance' collapsible
+*
+Might even want to just have one wide row first and then two columns underneath.
+*
+Can edit information within the wide row rather than have a different column for editing. 
+*
+See notes you saved about features to add. 
+-->
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -22,7 +32,44 @@
           <i class="fa-solid fa-gear settingsIcon"></i>
         </div>
       </header>
-      <div class="interfaceContainer"></div>
+      <div class="interfaceContainer">
+        <h2 class="welcomeMessage">Welcome, user.</h2>
+        <div class="grid">
+          <div class="griditem glance dashitem">
+            <h3>At a Glance <i class="fa-solid fa-eye"></i></h3>
+            <hr />
+            <div class="glanceBlock">
+              <h4>Your Accounts</h4>
+              <ul class="bankAcctsList">
+                <li class="attrib"></li>
+                <li class="attrib"></li>
+              </ul>
+            </div>
+            <hr />
+            <div class="glanceBlock">
+              <h4>Income</h4>
+              <ul class="incomeList">
+                <li class="attrib"></li>
+                <li class="attrib"></li>
+              </ul>
+            </div>
+            <hr />
+            <div class="glanceBlock">
+              <h4>Expenses</h4>
+              <ul class="expenseList">
+                <li class="attrib"></li>
+                <li class="attrib"></li>
+              </ul>
+            </div>
+          </div>
+          <div class="griditem editBox dashitem">
+            <h3>Edit Information <i class="fa-solid fa-pen-fancy"></i></h3>
+            <hr />
+          </div>
+          <div class="griditem"></div>
+          <div class="griditem"></div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
